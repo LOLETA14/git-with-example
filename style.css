@@ -5,7 +5,7 @@
 }
 .navbar{
     width: 100vw;
-    height: 50px;
+    height: 60px;
     background-color: rgb(12, 12, 119);
     position: fixed;
    
@@ -27,7 +27,33 @@
     color: white;
 }
 .list .item a{
-    height: 50px;
+    height: 60px;
     color: white;
     padding-top:20px ;
+    font-size: 20px;
+}
+.header-image{
+    height:calc(100vh - 60px);
+    width: 100vw;
+    background-image: url("./assites/image/test.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-image h1{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(233, 148, 148, 0.808);
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
 }
